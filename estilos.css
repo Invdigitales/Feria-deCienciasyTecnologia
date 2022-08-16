@@ -13,12 +13,12 @@
   .titulo_primero {
     text-align: center;
     position: relative;
-    margin: 50px 0px;
+    margin: 50px 10px;
     color: rgb(111, 111, 111);
     font-size: 20px;
     border-radius: 1px;
     font-family: 'Cinzel', serif;
-    background-color: #f7f7f79d;
+    background-color: #fffdfd9d;
     border-radius: 20px;
   }
   
@@ -111,7 +111,7 @@
       font-size: 20px;
       font-weight: bold;
       background-color: #4fb843e5;
-      top: -350px;
+      margin top: -50%;
     }
   
     .countdown {
@@ -119,6 +119,13 @@
       justify-content: space-evenly;
       width: 90%;
       flex-wrap: wrap;
+      
+    }
+    .countdown div {
+      display: grid;
+      place-items: center;
+      padding: 10px;
+      margin-top: -70%;
     }
   }
   
