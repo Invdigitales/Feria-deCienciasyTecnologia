@@ -17,7 +17,7 @@
     color: rgb(111, 111, 111);
     font-size: 20px;
     border-radius: 1px;
-    font-family: 'Cinzel', serif;
+     font-family: 'Tinos', serif;
     background-color: #fffdfd9d;
     border-radius: 20px;
   }
@@ -125,8 +125,9 @@
       display: grid;
       place-items: center;
       padding: 10px;
-      margin-top: -70%;
+      margin-top: -40%;
     }
+    
   }
   
   
@@ -164,8 +165,8 @@
   
   
   .container__1 .card img {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
   }
   
   .container__1 .card h4 {
@@ -219,8 +220,8 @@
     }
   
     .container__1 .card img {
-      width: 70px;
-      height: 70px;
+      width: 80px;
+      height: 80px;
     }
   
     .titulo_footer{
